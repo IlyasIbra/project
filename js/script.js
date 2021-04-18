@@ -1,6 +1,6 @@
 "use strict";
 
-//alert('Hello world!');
+alert('Hello world!');
 
 //const result = confirm("Are you here?");
 //console.log(result);
@@ -24,8 +24,8 @@ const answers = [];
 let incr = 10,
     decr = 10;
     
-incr++;
-decr--;
+//++incr;
+//--decr;
 
-console.log(incr);
-console.log(decr);
+console.log(incr++);
+console.log(decr--);
